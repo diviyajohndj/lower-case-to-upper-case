@@ -1,0 +1,11 @@
+s=input()
+d=[]
+for i in s:
+  if i.islower()==1:
+    d.append(i.upper())
+  elif i.isupper()==1:
+    d.append(i.lower())
+  else:
+    d.append(i)
+d="".join(d)
+print(d)
